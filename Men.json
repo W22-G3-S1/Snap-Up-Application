@@ -1,0 +1,66 @@
+[
+    {
+      "_id": 10,
+      "title": "Levi's",
+      "description": "For beach blue Shirt",
+      "image": "Assets/images/men1.jpg",
+      "price": 15
+    },
+    {
+      "_id": 11,
+      "title": "Roadster",
+      "description": "Loose men's cream color t-shirt",
+      "image": "Assets/images/men2.jpg",
+      "price": 30
+    },
+    {
+      "_id": 12,
+      "title": "H&M",
+      "description": "Men's Solid blue shirt",
+      "image": "Assets/images/men3.jpg",
+      "price": 27
+    },
+    {
+      "_id": 13,
+      "title": "Here&Now",
+      "description": "Summer Casual White Tshirt",
+      "image": "Assets/images/men4.jpg",
+      "price": 20
+    },
+    {
+      "_id": 14,
+      "title": "Love Fashion",
+      "description": "Men's solid Blue workout Hoodie",
+      "image": "Assets/images/men5.jpg",
+      "price": 25
+    },
+    {
+      "_id": 15,
+      "title": "Phoenix",
+      "description": "Summer Casual Solid Light Bottle Green color T-shirt",
+      "image": "Assets/images/men6.jpg",
+      "price": 19
+    },
+    {
+      "_id": 16,
+      "title": "Huetrap",
+      "description": "Men Beige & Black Printed Round Neck T-shirt",
+      "image": "Assets/images/men7.jpg",
+      "price": 20
+    },
+    {
+      "_id": 17,
+      "title": "HERE&NOW",
+      "description": "Men Beige & Black Printed Round Neck T-shirt",
+      "image": "Assets/images/men8.jpg",
+      "price": 30
+    },
+    {
+      "_id": 18,
+      "title": "Roadster",
+      "description": "Men Blue Washed Denim Jacket",
+      "image": "Assets/images/men9.jpg",
+      "price": 40
+    }
+  ]
+  

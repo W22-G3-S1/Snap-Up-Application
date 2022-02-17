@@ -1,0 +1,46 @@
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;"><center>
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">UPDATE <span class="w3-hide-small">PROFILE</span></span></center><br>
+    <div class="login-wrapper"></div>
+        <div class="row">
+            <div class="offset-md-4 col-md-4">
+                <!--Message Area-->
+                <%if(successMessages.length > 0) { %>
+                    <div class="alert alert-success">
+                        <%= successMessages %>
+                    </div>
+                <% } %>
+                <%if(errorMessages.length > 0) { %>
+                    <div class="alert alert-danger">
+                        <%= errorMessages %>
+                    </div>
+                <% } %>
+                <form method="POST" autocomplete="off">
+                    <fieldset class="form-group">
+                        <label for="username"><b>Username: </b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="text" class="form-control" name="username" value="<%= username%>" id="username" readonly>
+                    </fieldset>
+
+                    <fieldset class="form-group">
+                        <label for="email"><b>Email: </b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="email" class="form-control" name="email" value="<%= email%>" placeholder="Enter email Address" id="email">
+                    </fieldset>
+
+                    <fieldset class="form-group">
+                        <label for="displayName"><b>Display name: </b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="text" class="form-control" name="displayName" value="<%= displayName%>" placeholder="Enter Display Name" id="displayName">
+                    </fieldset>
+
+                    <fieldset class="form-group text-right"><center>
+                    <input type="submit" value="Update" class="btn btn-info" style="background:white;width:100px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="/">
+                        <input type="button" class="btn btn-warning" value="Cancel" style="background:grey;width:100px">
+                    </a></center>
+                </fieldset>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

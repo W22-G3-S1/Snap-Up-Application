@@ -1,0 +1,24 @@
+[
+    {
+      "_id": 15,
+      "title": "U.S. Polo Assn. Denim Co.",
+      "description": "Men Blue Slim Fit Self-Design Casual Shirt",
+      "image": "Assets/images/60sale1.jpg",
+      "price": 25
+    },
+    {
+      "_id": 16,
+      "title": "U.S. Polo Assn. Women",
+      "description": "Grey Melange Self Design Pullover",
+      "image": "Assets/images/60sale2.jpg",
+      "price": 40
+    },
+    {
+      "_id": 17,
+      "title": "Mangoose",
+      "description": "MANGO Blue Wrap Dress",
+      "image": "Assets/images/60sale3.jpg",
+      "price": 45
+    }
+  ]
+  

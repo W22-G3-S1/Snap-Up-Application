@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/bootstrap/dist/css/bootstrap.min.css' />
+    <link rel='stylesheet' href='/@fortawesome/fontawesome-free/css/all.min.css' />
+    <link rel='stylesheet' href='/Content/app.css' />
+  </head>
+
+    <%- include ../partials/main_nav.ejs%>
+
+
+<!--Women Page Content-->
+<body  background="">
+    <main class="container-fluid">
+        <div class="container list-container">
+            <!--title-->
+            <h1 class="display-6">Women</h1>
+            <!--contents-->
+            <% for(let i=0; i<ProductList.length; i++) { %>
+                <% if(ProductList[i].type == "women") { %>
+                    <div class="content-wrap">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <div class="img-align">
+                                    <img src="<%= ProductList[i].image %>" height="300" width="250"  >
+                                </div> 
+                                <h5 class="card-title"><%= ProductList[i].title%></h5>
+                                <p class="card-text"> <%= ProductList[i].description%>
+                                <div class="flex items-center justify-around mt-6">
+                                    <span class="font-bold text-lg list-price">$<%= ProductList[i].price %></span>
+                                    <a class="btn btn-info add-btn add-to-card" style="width:38%;" href="/cart/add/<%= ProductList[i]._id %>">
+                                        <span>Add to <i class="fa fa-shopping-cart"></i></span>
+                                    </a>
+                                    <a class="btn btn-danger add-btn add-to-card" style="width:38%;" href="/wishlist/add/<%= ProductList[i]._id %>">
+                                        <span>Add to <i class="fa fa-heart"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <% } %>
+            <% }%>    
+        </div>
+    </main>
+</body>

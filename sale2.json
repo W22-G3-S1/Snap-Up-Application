@@ -1,0 +1,24 @@
+[
+    {
+      "_id": 12,
+      "title": "MANGO Light",
+      "description": "Women Blue Regular Fit Solid Knitted Cropped Casual Shirt",
+      "image": "Assets/images/50sale1.jpg",
+      "price": 20
+    },
+    {
+      "_id": 13,
+      "title": "H&M",
+      "description": "Boys blue & White Striped Football bodysuit",
+      "image": "Assets/images/50sale2.jpg",
+      "price": 30
+    },
+    {
+      "_id": 14,
+      "title": "U.S. Assn.",
+      "description": "Navy Blue Solid Cotton Linen A-Line Dress with Breathable Material",
+      "image": "Assets/images/50sale3.jpg",
+      "price": 15
+    }
+  ]
+  

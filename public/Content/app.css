@@ -1,0 +1,65 @@
+
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.wrapper {
+  width: 100%;
+  text-align: center;
+  height: 250px;  
+}
+/* list */
+.content-wrap {
+  border: 0px solid orange;
+  padding: 20px;
+  float: left;
+  margin: 10px;
+  width: 30%;
+  display: inline-block;
+}
+
+.card-title {
+  margin-top: 10px;
+}
+
+.add-btn {
+  margin-left: 10px;
+  width: 35%;
+  font-size: 15px;
+  float: right;
+}
+ 
+.list-price {
+ font-size: 20px;
+}  
+
+.list-container{
+  width: 100%;
+  height: 100%; 
+  display: table;
+  padding-bottom: 10%;
+}
+
+.img-align{
+}
+
+.login-wrapper {
+  width: 100%;
+  text-align: center;
+  height: 150px;  
+}
+
+.product-list .cart-item {
+  float: left;
+  padding: 10px;
+}
+
+.total {
+  font-size: 20px;
+  margin-top: 300px;
+}

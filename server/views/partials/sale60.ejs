@@ -1,0 +1,31 @@
+<!--About Me Page Content-->
+<body  background="">
+    <main class="container-fluid" style="height: 530px;">
+        <div class="container">
+            <!--title-->
+            <br>
+            <h1 class="display-6"><p style="color:rgb(255, 94, 0)">On Sale Now</p></h1>
+            <br>
+            <!--contents-->
+            <% sale3.forEach((product) => { %>
+                <div class="content-wrap">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="img-align">
+                                <img src="<%= product.image %>" height="300" width="250"  >
+                            </div> 
+                            <h5 class="card-title"><%= product.title%></h5>
+                            <p class="card-text"> <%= product.description%>
+                            <div class="flex items-center justify-around mt-6">
+                                <span class="font-bold text-lg list-price">$<%= product.price %></span>
+                                <button class="btn btn-info add-btn add-to-card" data-product="<%= JSON.stringify(product) %>">
+                                    <span>+ Add</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <% }) %>    
+        </div>
+    </main>
+</body>

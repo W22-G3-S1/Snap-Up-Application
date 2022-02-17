@@ -1,0 +1,66 @@
+[
+    {
+      "_id": 19,
+      "title": "Antheaa",
+      "description": "Women Black & Rust Orange Floral Print Tiered Midi Fit",
+      "image": "Assets/images/women1.jpg",
+      "price": 28
+    },
+    {
+      "_id": 20,
+      "title": "Harpa",
+      "description": "Women Green Solid Accordion Pleated A-Line Dress",
+      "image": "Assets/images/women2.jpg",
+      "price": 15
+    },
+    {
+      "_id": 21,
+      "title": "SASSAFRAS",
+      "description": "Women Black & Pink Printed Wrap Dress",
+      "image": "Assets/images/women3.jpg",
+      "price": 25
+    },
+    {
+      "_id": 22,
+      "title": "H&M",
+      "description": "Black Solid Basic Jumpsuit",
+      "image": "Assets/images/women4.jpg",
+      "price": 30
+    },
+    {
+      "_id": 23,
+      "title": "Vishudh",
+      "description": "Women Black Printed Maxi Dress",
+      "image": "Assets/images/women5.jpg",
+      "price": 75
+    },
+    {
+      "_id": 24,
+      "title": "SASSAFRAS",
+      "description": "Women Peach-Coloured Solid Round Neck T-shirt",
+      "image": "Assets/images/women6.jpg",
+      "price": 30
+    },
+    {
+      "_id": 25,
+      "title": "ether",
+      "description": "Women Mustard Yellow Solid Round Neck T-shirt",
+      "image": "Assets/images/women7.jpg",
+      "price": 18
+    },
+    {
+      "_id": 26,
+      "title": "Vishudh",
+      "description": "Women Olive Green Solid Maxi Dress",
+      "image": "Assets/images/women8.jpg",
+      "price": 69
+    },
+    {
+      "_id": 27,
+      "title": "Athena",
+      "description": "Women Red Solid Bardot Top",
+      "image": "Assets/images/women9.jpg",
+      "price": 30
+    }
+  ]
+  

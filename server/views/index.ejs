@@ -1,0 +1,51 @@
+<%- include partials/header.ejs%>
+<%- include partials/main_nav.ejs%>
+<!--Main Section-->
+<% if (title == "Login") { %>
+  <%- include auth/login.ejs%>
+<% } %>
+<% if (title == "Home") { %>
+  <%- include partials/home_content.ejs%>
+<% } %>
+<% if (title == "Projects") { %>
+  <%- include partials/projects_content.ejs%>
+<% } %>
+<% if (title == "Services") { %>
+  <%- include partials/services_content.ejs%>
+<% } %>
+<% if (title == "Contact") { %>
+  <%- include partials/contact_content.ejs%>
+<% } %>
+<% if (title == "Men") { %>
+  <%- include partials/men_content.ejs%>
+<% } %>
+<% if (title == "Women") { %>
+  <%- include partials/women_content.ejs%>
+<% } %>
+<% if (title == "Kids") { %>
+  <%- include partials/kids_content.ejs%>
+<% } %>
+<% if (title == "Offers") { %>
+  <%- include partials/offers_content.ejs%>
+<% } %>
+<% if (title == "Wishlist") { %>
+  <%- include partials/wishlist.ejs%>
+<% } %>
+<% if (title == "Cart") { %>
+  <%- include partials/cart.ejs%>
+<% } %>
+<% if (title == "Profile") { %>
+  <%- include partials/profile.ejs%>
+<% } %>
+<% if (title == "Sale40") { %>
+  <%- include partials/sale40.ejs%>
+<% } %>
+
+<% if (title == "Sale50") { %>
+  <%- include partials/sale50.ejs%>
+<% } %>
+
+<% if (title == "Sale60") { %>
+  <%- include partials/sale60.ejs%>
+<% } %>
+<%- include partials/bottom_nav.ejs%>

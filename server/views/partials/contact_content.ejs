@@ -1,0 +1,39 @@
+<%- include ../partials/header.ejs%>
+<%- include ../partials/main_nav.ejs%>
+<br><br>
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display" style="white-space:nowrap;"><center><br><br>
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">SNAP <span class="w3-hide-small">UP</span> CONTACT</span></center>
+  </div>
+
+<script type = "text/javascript">
+    function Success() {
+       alert ("Details submitted Successfully!");
+       window.location.href = "/home";
+    }
+</script> 
+<body>
+<br>
+ <main class="container" style="height: 550px;">
+     <div class="jumbotron" style="height: 500px;">
+         <div style="font-size: 16px; background-color:white; width:510px; padding: 10px; float: right;">
+             <br>
+                 <label><input type="text" id="fname" name="fname" placeholder="First Name" required></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 <label><input type="text" id="lname" name="lname" placeholder="Last Name" required></label><br><br>
+                 <label><input type="text" id="phone" name="phone" placeholder="Contact Number" required></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 <label><input type="text" id="email" name="email" placeholder="Email ID" required></label><br><br>
+                 <textarea type="text" id="msg" name="msg" placeholder="Message" rows="5" cols="48" required></textarea><br><br>
+                 <button type="submit" form="form" value="Submit" class="btn btn-primary" onclick="Success()">Submit</button>
+         </div><br><br>
+         <div class="panel panel-default" style="padding:10px;">
+             <div class="panel-body" style="font-size: 18px; background-color:white; width:510px;">
+                 <br><strong>Email : </strong><br>snapup@gmail.com<br><br>
+                 <strong>Phone : </strong><br>(+1)-1111111111<br><br>
+                 <strong>Address : </strong><br>Snap Up, Main Street, Toronto, Canada<br>
+             </div>
+         </div>
+     </div>
+ </main>
+ </div>
+</body>

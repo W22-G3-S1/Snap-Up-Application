@@ -1,0 +1,196 @@
+[
+    {
+      "_id": 19,
+      "title": "Antheaa",
+      "description": "Women Black & Rust Orange Floral Print Tiered Midi Fit",
+      "image": "Assets/images/women1.jpg",
+      "price": 28
+    },
+    {
+      "_id": 20,
+      "title": "Harpa",
+      "description": "Women Green Solid Accordion Pleated A-Line Dress",
+      "image": "Assets/images/women2.jpg",
+      "price": 15
+    },
+    {
+      "_id": 21,
+      "title": "SASSAFRAS",
+      "description": "Women Black & Pink Printed Wrap Dress",
+      "image": "Assets/images/women3.jpg",
+      "price": 25
+    },
+    {
+      "_id": 22,
+      "title": "H&M",
+      "description": "Black Solid Basic Jumpsuit",
+      "image": "Assets/images/women4.jpg",
+      "price": 30
+    },
+    {
+      "_id": 23,
+      "title": "Vishudh",
+      "description": "Women Black Printed Maxi Dress",
+      "image": "Assets/images/women5.jpg",
+      "price": 75
+    },
+    {
+      "_id": 24,
+      "title": "SASSAFRAS",
+      "description": "Women Peach-Coloured Solid Round Neck T-shirt",
+      "image": "Assets/images/women6.jpg",
+      "price": 30
+    },
+    {
+      "_id": 25,
+      "title": "ether",
+      "description": "Women Mustard Yellow Solid Round Neck T-shirt",
+      "image": "Assets/images/women7.jpg",
+      "price": 18
+    },
+    {
+      "_id": 26,
+      "title": "Vishudh",
+      "description": "Women Olive Green Solid Maxi Dress",
+      "image": "Assets/images/women8.jpg",
+      "price": 69
+    },
+    {
+      "_id": 27,
+      "title": "Athena",
+      "description": "Women Red Solid Bardot Top",
+      "image": "Assets/images/women9.jpg",
+      "price": 30
+    },
+    {
+        "_id": 10,
+        "title": "Levi's",
+        "description": "For beach blue Shirt",
+        "image": "Assets/images/men1.jpg",
+        "price": 15
+      },
+      {
+        "_id": 11,
+        "title": "Roadster",
+        "description": "Loose men's cream color t-shirt",
+        "image": "Assets/images/men2.jpg",
+        "price": 30
+      },
+      {
+        "_id": 12,
+        "title": "H&M",
+        "description": "Men's Solid blue shirt",
+        "image": "Assets/images/men3.jpg",
+        "price": 27
+      },
+      {
+        "_id": 13,
+        "title": "Here&Now",
+        "description": "Summer Casual White Tshirt",
+        "image": "Assets/images/men4.jpg",
+        "price": 20
+      },
+      {
+        "_id": 14,
+        "title": "Love Fashion",
+        "description": "Men's solid Blue workout Hoodie",
+        "image": "Assets/images/men5.jpg",
+        "price": 25
+      },
+      {
+        "_id": 15,
+        "title": "Phoenix",
+        "description": "Summer Casual Solid Light Bottle Green color T-shirt",
+        "image": "Assets/images/men6.jpg",
+        "price": 19
+      },
+      {
+        "_id": 16,
+        "title": "Huetrap",
+        "description": "Men Beige & Black Printed Round Neck T-shirt",
+        "image": "Assets/images/men7.jpg",
+        "price": 20
+      },
+      {
+        "_id": 17,
+        "title": "HERE&NOW",
+        "description": "Men Beige & Black Printed Round Neck T-shirt",
+        "image": "Assets/images/men8.jpg",
+        "price": 30
+      },
+      {
+        "_id": 18,
+        "title": "Roadster",
+        "description": "Men Blue Washed Denim Jacket",
+        "image": "Assets/images/men9.jpg",
+        "price": 40
+      },
+      {
+        "_id": 28,
+        "title": "H&M",
+        "description": "Girls White & Blue Striped T-shirt",
+        "image": "Assets/images/kids1.jpg",
+        "price": 28
+      },
+      {
+        "_id": 29,
+        "title": "Stylo Bug",
+        "description": "100% Cotton for babies",
+        "image": "Assets/images/kids2.jpg",
+        "price": 15
+      },
+      {
+        "_id": 30,
+        "title": "MANZON",
+        "description": "Girls Pack of 2 Capris",
+        "image": "Assets/images/kids3.jpg",
+        "price": 25
+      },
+      {
+        "_id": 31,
+        "title": "Tommy Hilfiger",
+        "description": "Organic Cotton T-shirt",
+        "image": "Assets/images/kids4.jpg",
+        "price": 30
+      },
+      {
+        "_id": 32,
+        "title": "H&M",
+        "description": "Girls Peach Patterned Jersey Dress",
+        "image": "Assets/images/kids5.jpg",
+        "price": 25
+      }
+      ,
+      {
+        "_id": 33,
+        "title": "GAP",
+        "description": "Girls Navy Blue Logo Pull-On Shorts",
+        "image": "Assets/images/kids6.jpg",
+        "price": 20
+      }
+      ,
+      {
+        "_id": 34,
+        "title": "YK Disney",
+        "description": "Girls White & Red Polka Dot Pattern Fit & Flare Dress",
+        "image": "Assets/images/kids7.jpg",
+        "price": 15
+      }
+      ,
+      {
+        "_id": 35,
+        "title": "H&M",
+        "description": "Infant Boys Red Football Bodysuit",
+        "image": "Assets/images/kids8.jpg",
+        "price": 30
+      }
+      ,
+      {
+        "_id": 36,
+        "title": "H&M",
+        "description": "Boys Grey & Black 3-piece jersey set",
+        "image": "Assets/images/kids9.jpg",
+        "price": 28
+      }
+  ]
+  

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= title %>
+    </title>
+    <link rel='stylesheet' href='/bootstrap/dist/css/bootstrap.min.css' />
+    <link rel='stylesheet' href='/@fortawesome/fontawesome-free/css/all.min.css' />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='/Content/app.css' />
+    <style>
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Raleway", sans-serif
+        }
+
+        body,
+        html {
+            height: 100%;
+            line-height: 1.8;
+            font-family: "Raleway", sans-serif;
+            font-size: medium;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="container-fluid">
+        <div class="container list-container">
+            <h1>
+                <%=title%>
+                    </title>
+            </h1>
+            <!--contents-->
+            <% for(let i=0; i<Records.length; i++) { %>
+                <div class="content-wrap" style="width: 45%;">
+                    <div class="card h-100">
+                        <div class="card-body">
+                           <div class="img-align d-flex justify-content-center">
+                                <img src="<%= Records[i].image %>" height="300" width="250">
+                            </div>
+                            <h5 class="card-title">
+                                <%= Records[i].title %>
+                            </h5>
+                            <p class="card-text">
+                                <%= Records[i].description %>
+                                    <div class="flex items-center justify-around mt-6">
+                                        <span class="font-bold text-lg list-price">$<%= Records[i].price %></span>
+                                        <a class="btn btn-info add-btn add-to-card" style="width:38%;"
+                                            href="/cart/add/<%= Records[i]._id %>">
+                                            <span>Add to <i class="fa fa-shopping-cart"></i></span>
+                                        </a>
+                                        <a class="btn btn-danger add-btn add-to-card" style="width:38%;"
+                                            href="/wishlist/remove/<%= Records[i]._id %>">
+                                            <span>Remove from <i class="fa fa-heart"></i></span>
+                                        </a>
+                                    </div>
+                        </div>
+                    </div>
+                </div>
+                <% } %>
+        </div>
+    </main>
+</body>

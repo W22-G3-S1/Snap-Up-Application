@@ -1,0 +1,55 @@
+<%- include ../partials/header.ejs%>
+<%- include ../partials/main_nav.ejs%>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;"><center>
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">SNAP <span class="w3-hide-small">UP</span> SIGN UP</span></center>
+
+    
+    <div class="login-wrapper"></div>
+    <!--Message Area-->
+    <%if(messages.length > 0) { %>
+        <div class="alert alert-danger">
+            <%=messages %>
+        </div>
+    <% } %>
+    <br>
+    <div class="row">
+        <div class="offset-md-4 col-md-4">
+            <form method="POST" autocomplete="off">
+                <fieldset class="form-group">
+                    <label for="username"><b>Username: </b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="text" class="form-control" style="width:300px;" name="username" placeholder="Enter username" id="username" required autofocus>
+                </fieldset>
+        
+                <fieldset class="form-group">
+                    <label for="password"><b>Password: </b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="password" class="form-control" style="width:300px;" name="password" placeholder="Enter password" id="password" required>
+                </fieldset>
+
+                <fieldset class="form-group">
+                    <label for="email"><b>Email: </b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="email" class="form-control" style="width:300px;" name="email" placeholder="Enter email" id="email" required>
+                </fieldset>
+
+                <fieldset class="form-group">
+                    <label for="displayName"><b>Display name: </b></label>&nbsp;&nbsp;
+                    <input type="text" class="form-control" style="width:300px;" name="displayName" placeholder="Enter display name" id="displayName" required>
+                   
+                </fieldset>
+                <center>
+                <fieldset class="form-group text-right">
+                    <input type="submit" value="Register" class="btn btn-success" style="background:white;width:100px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="/" >
+                        <input type="button" class="btn btn-warning" value="Cancel" style="background:grey;width:100px">
+                    </a>
+                </fieldset>
+                </center>
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+<%- include ../partials/bottom_nav.ejs%>
+<%- include ../partials/footer.ejs%>

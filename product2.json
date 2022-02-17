@@ -1,0 +1,70 @@
+[
+    {
+      "_id": 28,
+      "title": "H&M",
+      "description": "Girls White & Blue Striped T-shirt",
+      "image": "Assets/images/kids1.jpg",
+      "price": 28
+    },
+    {
+      "_id": 29,
+      "title": "Stylo Bug",
+      "description": "100% Cotton for babies",
+      "image": "Assets/images/kids2.jpg",
+      "price": 15
+    },
+    {
+      "_id": 30,
+      "title": "MANZON",
+      "description": "Girls Pack of 2 Capris",
+      "image": "Assets/images/kids3.jpg",
+      "price": 25
+    },
+    {
+      "_id": 31,
+      "title": "Tommy Hilfiger",
+      "description": "Organic Cotton T-shirt",
+      "image": "Assets/images/kids4.jpg",
+      "price": 30
+    },
+    {
+      "_id": 32,
+      "title": "H&M",
+      "description": "Girls Peach Patterned Jersey Dress",
+      "image": "Assets/images/kids5.jpg",
+      "price": 25
+    }
+    ,
+    {
+      "_id": 33,
+      "title": "GAP",
+      "description": "Girls Navy Blue Logo Pull-On Shorts",
+      "image": "Assets/images/kids6.jpg",
+      "price": 20
+    }
+    ,
+    {
+      "_id": 34,
+      "title": "YK Disney",
+      "description": "Girls White & Red Polka Dot Pattern Fit & Flare Dress",
+      "image": "Assets/images/kids7.jpg",
+      "price": 15
+    }
+    ,
+    {
+      "_id": 35,
+      "title": "H&M",
+      "description": "Infant Boys Red Football Bodysuit",
+      "image": "Assets/images/kids8.jpg",
+      "price": 30
+    }
+    ,
+    {
+      "_id": 36,
+      "title": "H&M",
+      "description": "Boys Grey & Black 3-piece jersey set",
+      "image": "Assets/images/kids9.jpg",
+      "price": 28
+    }
+  ]
+  

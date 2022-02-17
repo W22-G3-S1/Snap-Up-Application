@@ -1,0 +1,24 @@
+[
+    {
+      "_id": 9,
+      "title": "Puma M",
+      "description": "Men Black Run Tapered Track Pant with Dual Side Slip-in Pockets",
+      "image": "Assets/images/40sale1.jpg",
+      "price": 20
+    },
+    {
+      "_id": 10,
+      "title": "Harpa",
+      "description": "Women Green Solid Accordion Pleated A-Line Dress",
+      "image": "Assets/images/40sale2.jpg",
+      "price": 30
+    },
+    {
+      "_id": 11,
+      "title": "SASSAFRAS",
+      "description": "Women Black & Pink Printed Wrap Dress",
+      "image": "Assets/images/40sale3.jpg",
+      "price": 15
+    }
+  ]
+  

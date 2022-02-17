@@ -1,0 +1,33 @@
+<!--Main Navigation Section-->
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="/" class="w3-bar-item w3-button w3-wide"><img src="Assets/images/SnapUpLogo_transparent.png" height="5%" width="35px">&nbsp;SNAP UP</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="/#about" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="\services" class="w3-bar-item w3-button"><i class="fa fa-th"></i> CATEGORIES</a>
+      
+      <a href="\contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    
+      <% if((typeof displayName == 'string' && displayName) || session.cart) { %>         
+            <a href="\profile" class="w3-bar-item w3-button"><i class="fa fa-user"></i> PROFILE</a> 
+            
+            <a href="\wishlist" class="w3-bar-item w3-button"><i class="fa fa-heart"></i> WISHLIST </a>         
+            
+            <a href="\cart" class="w3-bar-item w3-button"><i class="fa fa-shopping-cart"></i> 
+            CART(<span id="cart-counter"><%= session.cart ? session.cart.totalQty : '' %></span>)</a>         
+            
+            <a class="w3-bar-item w3-button" href="/logout"><i class="fas fa fa-sign-out"></i> LOGOUT</a>
+          
+          <% } else { %>
+
+          <a href="\login" class="w3-bar-item w3-button"><i class="fa fa-shopping-cart"></i> 
+            CART(<span id="cart-counter"><%= session.cart ? session.cart.totalQty : '' %></span>)</a> 
+
+          <a class="w3-bar-item w3-button" aria-current="page" href="\login"><i class="fa fa-sign-in"></i> LOGIN</a>
+
+          <% } %>
+    </div>
+  </div>
+</div>
